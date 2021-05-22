@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mineboats",
+  "version": "${version}",
+  "name": "Mineboats",
+  "description": "Utilities for Boat Racing in Minecraft",
+  "authors": [
+    "DownloadPizza"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mineboats/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.downloadpizza.mineboats.Mineboats"
+    ]
+  },
+  "mixins": [
+    "mineboats.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
