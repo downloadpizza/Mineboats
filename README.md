@@ -1,5 +1,6 @@
 # Mineboats
 
+## Tutorial
 Works with client side commands:
 - line
   - start: sets pos1 of the "line"
@@ -15,3 +16,6 @@ connects to a livesplit server running on the default port, note that livesplit 
   - start: starts the splits when the player moves
   - startonsplit: starts when the player first crosses the line
   - stop: stops all splitting operations
+
+## CubeKrowd rule compliance
+The mod tracks the player position and speed. No other information is used.
